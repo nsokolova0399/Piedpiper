@@ -1,0 +1,405 @@
+@import url("normalize.css");
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: rgb(15, 15, 15);
+}
+/*Header start*/
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  background-image: url("Rectangle.png");
+  min-height: 84px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+
+
+}
+.header_logo_pic {
+  height: 45px;
+  width: 184px;
+  margin-left: 55.04px;
+  margin-top: 22px;
+  margin-bottom: 19px;
+}
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.header_list {
+  display:flex; 
+  flex-wrap: wrap;
+}
+.header_item {
+  margin-right: 8px;
+  list-style-type: none;
+}
+.header_item:last-child {
+  margin-right: 54px;
+}
+.header_link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: font-size .3s linear;
+}
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+  opacity: 0.75;
+  width: 20%;
+}
+/*Header finish*/
+/*Piper-1 start*/
+.Piper_1 {
+  min-height: 403px;
+  background-image: url("Jumbotron.png");
+  background-size: cover;
+}
+.Piper_1_title {
+  font-weight: 1219;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+  color: #ffffff;
+  font-stretch: medium;
+  padding-top: 160px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-opacity: 100%;
+  -webkit-text-stroke-position: inside;
+}
+
+/*Piper-1 finish*/
+
+/*Piper-2 start*/
+.Piper_2 {
+  min-height: 719px;
+  background-color: #eeeeee;
+  background-size: cover;
+  padding-top: 48px;
+}
+.Piper_2_title {
+  font-weight: 1107;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  font-stretch: medium;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-opacity: 100%;
+  -webkit-text-stroke-position: inside;
+}
+.Piper_2_text {
+  font-weight: 1110;
+  font-size: 32px;
+  color: #000000;
+  font-stretch: mixed;
+}
+/*Piper-2 finish*/
+
+/*Piper-3 start*/
+.Piper_3 {
+  min-height: 483px;
+  background-image: url("Hero.png");
+  padding-top: 0px;
+}
+
+.Piper_3_text {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 500px;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 128px;
+  line-height: 56px;
+}
+/*Piper-3 finish*/
+
+/*Piper-4 start*/
+.Piper_4 {
+  min-height: 604px;
+  background-color: #ffffff;
+  background-size: cover;
+  padding-top: 48px;
+}
+.Piper_4_title {
+  font-weight: 1110;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+.Piper_4_block {
+  margin-top: -32px;
+}
+.Piper_4_logo_pic {
+  height: 115px;
+  width: 115px;
+}
+.Piper_4_text {
+  color: #000000;
+  font-weight: 400px;
+  font-size: 32px;
+  text-align: left;
+  margin-top: -115px;
+  margin-left: 163px;
+  line-height: 37px;
+}
+.Piper_4_text_l {
+  font-style: italic;
+}
+.Piper_4_text_2 {
+  margin-left: -163px;
+  padding-top: 35px;
+}
+
+#problema,
+#Coin,#team {
+  border-top: 200px solid transparent;
+  margin-top: -137px;
+  background-clip: padding-box;
+}
+/*Piper-4 finish*/
+
+/*Piper-5 start*/
+.Piper_5 {
+    min-height: 845px;
+    background-color: #EEEEEE;
+    background-size: cover;
+    padding-top: 58px;
+  }
+  .Piper_5_title {
+    font-weight: 1110;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+  }
+  .Richard{
+    display: inline-block;
+    margin-top: -2px;
+    width: 350px;
+    height: 283px;
+  }
+  .Richard_pic{
+      padding-top: 24px;
+      padding-left: 91px;
+      width: 168px;
+      height: 168px;
+  }
+  .Richard_title{
+      width: 199px;
+      height: 29px;
+      font-size: 24px;
+      font-weight: bold;
+      color:#007765;
+      line-height: 28px;
+      text-align: center;
+      padding-left: 77px;
+      padding-top: 12px;
+  }
+  .Richard_title_1{
+
+    font-size: 18px;
+    font-style:italic;
+    font-weight: normal;
+    color:#000000;
+    line-height: 21px;
+    text-align: center;
+   
+  }
+  .Dinesh{
+    display: inline-block;
+    margin-top: -2px;
+    width: 350px;
+    height: 283px;
+
+  }
+  .Dinesh_pic{
+    padding-top: 24px;
+    padding-left: 91px;
+    width: 168px;
+    height: 168px;
+}
+.Dinesh_title{
+    width: 199px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#007765;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 77px;
+    padding-top: 12px;
+}
+.Dinesh_title_1{
+ 
+  font-size: 18px;
+  font-style:italic;
+  font-weight: normal;
+  color:#000000;
+  line-height: 21px;
+  text-align: center;
+  
+}
+  .Gilfoyle{
+    display: inline-block;
+    margin-top: -2px;
+    width: 350px;
+    height: 283px;
+
+  }
+  .Gilfoyle_pic{
+    padding-top: 24px;
+    padding-left: 91px;
+    width: 168px;
+    height: 168px;
+}
+.Gilfoyle_title{
+    width: 199px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#007765;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 77px;
+    padding-top: 12px;
+}
+.Gilfoyle_title_1{
+
+  font-size: 18px;
+  font-style:italic;
+  font-weight: normal;
+  color:#000000;
+  line-height: 21px;
+  text-align: center;
+  
+}
+  .Jared{
+    display: inline-block;
+    width: 350px;
+    height: 283px;
+    padding-top:30px;
+  }
+  .Jared_pic{
+    padding-top: 24px;
+    padding-left: 91px;
+    width: 168px;
+    height: 168px;
+}
+.Jared_title{
+    width: 199px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#007765;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 77px;
+    padding-top: 12px;
+}
+.Jared_title_1{
+
+  font-size: 18px;
+  font-style:italic;
+  font-weight: normal;
+  color:#000000;
+  line-height: 21px;
+  text-align: center;
+}
+  .Monika{
+    display: inline-block;
+    width: 350px;
+    height: 283px;
+
+  }
+  .Monika_pic{
+    padding-top: 24px;
+    padding-left: 91px;
+    width: 168px;
+    height: 168px;
+}
+.Monika_title{
+    width: 199px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#007765;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 77px;
+    padding-top: 12px;
+}
+.Monika_title_1{
+ 
+  font-size: 18px;
+  font-style:italic;
+  font-weight: normal;
+  color:#000000;
+  line-height: 21px;
+  text-align: center;
+  
+}
+  .Nelson{
+    display: inline-block;
+    width: 350px;
+    height: 283px;
+    padding-top:30px;
+  }
+  .Nelson_pic{
+    padding-top: 24px;
+    padding-left: 91px;
+    width: 168px;
+    height: 168px;
+}
+.Nelson_title{
+    width: 199px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#007765;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 77px;
+    padding-top: 12px;
+}
+.Nelson_title_1{
+  
+  font-size: 18px;
+  font-style:italic;
+  font-weight: normal;
+  color:#000000;
+  line-height: 21px;
+  text-align: center;
+}
+.Piper_6{
+
+    background-color:#333333;
+    min-height: 176px;
+    width: 100%;
+}
+.Piper_6_block{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 50px;
+}
