@@ -9,20 +9,19 @@ body {
 }
 /*Header start*/
 .wrapper {
-    box-sizing: border-box;
+ /* box-sizing: border-box;*/
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 55px;
-    padding-right: 55px;
-    margin: 0 auto;
+   /* padding-right: 55px;*/
 }
 .header {
   background-image: url("Rectangle.png");
   min-height: 84px;
+  width: 100%;
   top: 0;
   position: fixed;
-  background-size: cover;
 
 
 }
@@ -71,7 +70,6 @@ body {
   min-height: 403px;
   background-image: url("Jumbotron.png");
   background-size: cover;
-
 }
 .Piper_1_title {
   font-weight: 1219;
@@ -123,7 +121,6 @@ body {
   padding-top: 0px;
   background-size: cover;
   background-position: center center;
-
 }
 
 .Piper_3_text {
@@ -399,8 +396,7 @@ body {
 
     background-color:#333333;
     min-height: 176px;
-    background-size: cover;
-  
+    width: 100%;
 }
 .Piper_6_block{
     font-style: normal;
