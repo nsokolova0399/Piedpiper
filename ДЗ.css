@@ -19,9 +19,9 @@ body {
 .header {
   background-image: url("Rectangle.png");
   min-height: 84px;
-  width: 100%;
   top: 0;
   position: fixed;
+  background-size: cover;
 
 
 }
@@ -70,6 +70,7 @@ body {
   min-height: 403px;
   background-image: url("Jumbotron.png");
   background-size: cover;
+
 }
 .Piper_1_title {
   font-weight: 1219;
@@ -121,6 +122,7 @@ body {
   padding-top: 0px;
   background-size: cover;
   background-position: center center;
+
 }
 
 .Piper_3_text {
@@ -396,7 +398,8 @@ body {
 
     background-color:#333333;
     min-height: 176px;
-    width: 100%;
+    background-size: cover;
+  
 }
 .Piper_6_block{
     font-style: normal;
