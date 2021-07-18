@@ -9,7 +9,7 @@ body {
 }
 /*Header start*/
 .wrapper {
- /* box-sizing: border-box;*/
+    box-sizing: border-box;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
