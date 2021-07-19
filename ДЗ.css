@@ -7,11 +7,12 @@ body {
   font-weight: normal;
   color: rgb(15, 15, 15);
    overflow-x:hidden;
+
+}
   @media screen and (max-width: 992px) {
-.block-50 {
+.body {
   width: 50%;
   }
-}
 /*Header start*/
 .wrapper {
   margin-right: auto; 
