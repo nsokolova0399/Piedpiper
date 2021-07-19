@@ -9,10 +9,10 @@ body {
    overflow-x:hidden;
 
 }
-  @media screen and (max-width: 990px) {
-.header {
+/*  @media screen and (max-width: 990px) {
+.body {
   width: 50%;
-  }
+  }*/
 /*Header start*/
 .wrapper {
   margin-right: auto; 
