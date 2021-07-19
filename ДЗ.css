@@ -6,6 +6,7 @@ body {
   line-height: 1.2;
   font-weight: normal;
   color: rgb(15, 15, 15);
+   overflow-x:hidden;
 }
 /*Header start*/
 .wrapper {
